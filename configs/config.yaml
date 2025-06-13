@@ -1,0 +1,15 @@
+# === Project Configuration ===
+
+project_name: youtube_video_chaptering
+language: en
+transcript_source: youtube         
+enable_logging: true
+use_interface: false
+
+# Chunking
+chunk_size: 500                    # Number of tokens per segment
+chunk_overlap: 50                  
+
+# Output
+output_format: json               
+save_outputs: true

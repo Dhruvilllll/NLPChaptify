@@ -1,0 +1,13 @@
+# === Path Settings ===
+
+raw_data_dir: ./data/raw
+processed_data_dir: ./data/processed
+output_dir: ./outputs/chapters
+log_dir: ./outputs/logs
+
+# Whisper audio download location (if needed)
+audio_temp_dir: ./data/audio
+
+# Prompt templates
+summary_prompt: ./prompts/summary_prompt.txt
+title_prompt: ./prompts/title_prompt.txt

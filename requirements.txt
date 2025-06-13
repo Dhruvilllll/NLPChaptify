@@ -1,0 +1,34 @@
+# === Core Libraries ===
+numpy
+pandas
+tqdm
+
+# === YouTube Transcript & Audio ===
+youtube_transcript_api
+yt-dlp
+ffmpeg-python
+
+# === NLP & Transformers ===
+torch
+transformers
+sentencepiece
+spacy
+nltk
+
+# === Whisper ASR (Optional) ===
+openai-whisper
+
+# === Environment & API Integration ===
+python-dotenv
+openai
+requests
+
+# === Utilities ===
+regex
+textwrap3
+pytz
+loguru
+ipython
+
+streamlit
+gradio

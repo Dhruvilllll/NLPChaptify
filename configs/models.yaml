@@ -1,0 +1,17 @@
+# === Summarization / LLM Models ===
+
+default_model: bart-large-cnn      # Options: bart-large-cnn, t5-base, gpt-4
+use_openai: false                  # Set to true if using GPT-3.5/4
+
+# OpenAI Settings
+openai:
+  model_name: gpt-3.5-turbo
+  temperature: 0.4
+  max_tokens: 128
+
+# HuggingFace Model Settings
+hf:
+  model_name: facebook/bart-large-cnn
+  device: cuda                    # Use 'cpu' if no GPU
+  max_input_tokens: 1024
+  max_output_tokens: 128
